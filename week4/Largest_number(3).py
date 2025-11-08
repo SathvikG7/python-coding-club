@@ -1,6 +1,6 @@
-a = int(input("Enter a random number: "))
-b = int(input("Enter another random number: "))
-c = int(input("Enter another random number: "))
+a = float(input("Enter a random number: "))
+b = float(input("Enter another random number: "))
+c = float(input("Enter another random number: "))
 
 if a >= b and a >= c:
     print(f"The largest number is a = {a}")
