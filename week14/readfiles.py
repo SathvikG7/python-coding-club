@@ -1,0 +1,20 @@
+myFile=open("quotes.txt", "r")
+print(myFile.readline())
+print("Offset: ", myFile.tell())
+print(myFile.readline())
+print("Offset: ", myFile.tell())
+# print(type(myFile))
+# print("calling readlines() first time")
+# print(myFile.readlines())
+# myFile.close()
+
+# myFile=open("quotes.txt", "r")
+# print("calling for loop")
+# for line in myFile:
+#     print("Offset: ",myFile.tell())
+#     print(line)
+# myFile.close()
+
+# print("calling readlines() second time")
+# print(myFile.readlines())
+# print(myFile.readline())
